@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Портфоліо-резюме</title>
+<meta name="description" content="Моє портфоліо-резюме.">
+<link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+
+<!-- Bootswatch тема (Zephyr) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/zephyr/bootstrap.min.css" integrity="sha512-4FRwuqwye2+ull0yCscDHzWO53SpLta+o/mNoQP9T7wHO49srF7IdkMxWrwgLWJheznqJkdfJvLXPcrwPC2eRg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- AOS анімації -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Власні стилі -->
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- Навігація -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#home"><i class="fa-solid fa-user fa-beat me-2"></i>Моє Резюме</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Головна</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Навички</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Проєкти</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Контакти</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+<!-- Головна секція -->
+<section id="home" class="py-5" data-aos="fade-up">
+  <div class="container text-center">
+    <img src="assets/img/profile.jpg" class="rounded-circle img-fluid mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Моє фото">
+    <h1>Привіт, я [Твоє Ім'я]</h1>
+    <p class="lead">Веб-розробниця | UI/UX дизайнерка | Frontend</p>
+    <a href="#projects" class="btn btn-success btn-lg"><i class="fa-solid fa-briefcase me-2"></i>Мої проєкти</a>
+  </div>
+</section>
+
+<!-- Навички -->
+<section id="skills" class="py-5 bg-light" data-aos="fade-right">
+  <div class="container">
+    <h2 class="text-center mb-4">Навички</h2>
+    <div class="row text-center">
+      <div class="col-md-3 mb-3">
+        <i class="fa-brands fa-html5 fa-3x text-danger mb-2"></i>
+        <h5>HTML</h5>
+      </div>
+      <div class="col-md-3 mb-3">
+        <i class="fa-brands fa-css3-alt fa-3x text-primary mb-2"></i>
+        <h5>CSS</h5>
+      </div>
+      <div class="col-md-3 mb-3">
+        <i class="fa-brands fa-js fa-3x text-warning mb-2"></i>
+        <h5>JavaScript</h5>
+      </div>
+      <div class="col-md-3 mb-3">
+        <i class="fa-brands fa-bootstrap fa-3x text-info mb-2"></i>
+        <h5>Bootstrap</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Проєкти -->
+<section id="projects" class="py-5" data-aos="fade-left">
+  <div class="container">
+    <h2 class="text-center mb-4">Мої проєкти</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/project1.jpg" class="card-img-top" alt="Проєкт 1">
+          <div class="card-body">
+            <h5 class="card-title">Проєкт 1</h5>
+            <p class="card-text">Короткий опис проєкту та використовувані технології.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-primary"><i class="fa-solid fa-eye me-2"></i>Переглянути</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/project2.jpg" class="card-img-top" alt="Проєкт 2">
+          <div class="card-body">
+            <h5 class="card-title">Проєкт 2</h5>
+            <p class="card-text">Короткий опис проєкту та використовувані технології.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-primary"><i class="fa-solid fa-eye me-2"></i>Переглянути</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/project3.jpg" class="card-img-top" alt="Проєкт 3">
+          <div class="card-body">
+            <h5 class="card-title">Проєкт 3</h5>
+            <p class="card-text">Короткий опис проєкту та використовувані технології.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-primary"><i class="fa-solid fa-eye me-2"></i>Переглянути</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Контакти -->
+<section id="contacts" class="py-5 bg-light" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-4">Контакти</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Ім'я</label>
+            <input type="text" class="form-control" id="name" placeholder="Ваше ім'я" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Ваш email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Повідомлення</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Ваше повідомлення" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success w-100"><i class="fa-solid fa-paper-plane me-2"></i>Надіслати</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Футер -->
+<footer class="bg-primary text-white py-3">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2026 Моє Портфоліо. Всі права захищено.</p>
+  </div>
+</footer>
+
+<!-- Скрипти -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+<script>
+  AOS.init({duration:1000});
+  var scroll = new SmoothScroll('a[href*="#"]', {speed: 800});
+</script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
